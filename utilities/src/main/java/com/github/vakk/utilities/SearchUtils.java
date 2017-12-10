@@ -180,7 +180,11 @@ public class SearchUtils {
             String searchQuery = adjustWithFlags(query);
             return Observable.fromIterable(getItemTags(item))
                     .map(this::adjustWithFlags)
-                    .map(tag -> mShowAllOnEmptyQuery && searchQuery.isEmpty() || isRequired(searchQuery, tag));
+                    .map(tag -> mShowAllOnEmptyQuery && searchQuery.isEmpty() || isRequired(searchQuery, tag))
+                    .filter(r -> r)
+                    .toList()
+                    .toObservable()
+                    .map(res -> res.size() > 0 ? true : false);
         }
 
         private boolean isRequired(String query, String tag) {

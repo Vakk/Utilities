@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Utils.iml" filepath="$PROJECT_DIR$/Utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Utilities.iml" filepath="$PROJECT_DIR$/.idea/Utilities.iml" />
+      <module fileurl="file://C:\Users\ValeryKotsulym\Documents\Android\Projects\Magnis\Utilities\Utils.iml" filepath="C:\Users\ValeryKotsulym\Documents\Android\Projects\Magnis\Utilities\Utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/utilities/utilities.iml" filepath="$PROJECT_DIR$/utilities/utilities.iml" />
+      <module fileurl="file://C:\Users\ValeryKotsulym\Documents\Android\Projects\Magnis\Utilities\utilities\utilities.iml" filepath="C:\Users\ValeryKotsulym\Documents\Android\Projects\Magnis\Utilities\utilities\utilities.iml" />
     </modules>
   </component>
 </project>
